@@ -10,7 +10,7 @@ function clear() {
 
 function countWord() {
     const word = document.getElementById("word").value.toLowerCase().trim();
-    const lyrics = document.getElementById("lyrics").value.toLowerCase().trim();
+    const lyrics = document.getElementById("lyrics").value.toLowerCase().trim().replace(/[^\p{Script=Arabic}\s]/gu, '');;
 
     if (!word || !lyrics) {
         document.getElementById("result").innerHTML = "Please enter both a word and lyrics.";

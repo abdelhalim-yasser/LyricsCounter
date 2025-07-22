@@ -1,0 +1,113 @@
+html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cdn.pixabay.com/photo/2022/04/18/16/07/artwork-7140915_1280.png);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.glass-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    min-width: 250px;
+    box-sizing: border-box;
+    gap: 12px;
+    margin-bottom: 35px;
+}
+
+.glass-container textarea {
+    width: 100%;
+    resize: block;
+    min-height: 120px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.glass-container input {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.1);
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.glass-container button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 18px;
+}
+
+.glass-container p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    margin-top: 20px;
+}
+
+footer a {
+    color: #7a4ef3;
+    text-decoration: none;
+    font-weight: bold;
+}

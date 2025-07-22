@@ -36,8 +36,7 @@ A simple and elegant web tool that allows users to **count how many times a spec
 └── other-languages/        # Same logic implemented in other programming languages  
     ├── Python_version.py  
     ├── Java_version.java
-    ├── Csharp_version.cpp  
-    └── Cpp_version.cs  
+    ├── Csharp_version.cs
 ```
 ---
 
@@ -48,7 +47,6 @@ Equivalent logic implemented in:
 - 🐍 Python
 - ☕ Java
 - 💠 C#
-- 💻 C++
 
 > 📂 Check the `other-languages/` folder.
 

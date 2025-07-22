@@ -34,11 +34,10 @@ A simple and elegant web tool that allows users to **count how many times a spec
 ├── script.js               # JavaScript logic for word counting  
 ├── README.md               # This file  
 └── other-languages/        # Same logic implemented in other programming languages  
-    ├── python_version.py  
-    ├── java_version.java  
-    ├── c_version.c  
-    ├── cpp_version.cpp  
-    └── csharp_version.cs  
+    ├── Python_version.py  
+    ├── Java_version.java
+    ├── Cpp_version.cpp  
+    └── Csharp_version.cs  
 ```
 ---
 

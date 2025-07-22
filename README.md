@@ -48,7 +48,7 @@ Equivalent logic implemented in:
 - ☕ Java
 - 💠 C#
 
-> 📂 Check the `other-languages/` folder.
+> 📂 Check the `other-languages` folder.
 
 ---
 

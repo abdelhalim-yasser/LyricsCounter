@@ -17,7 +17,8 @@ class CountWord {
 	public static void countWord(string word, string lyrics) {
 		int count = 0;
 
-		string[] words = Regex.Replace(lyrics, @"[^\p{IsArabic}\s]", "").Split(new[] { ' ', '\t', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+		string[] words = Regex.Replace(lyrics, @"[^\p{L}\s]", "")
+		                      .Split(new[] { ' ', '\t', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
 
 		foreach(string w in words)
 			if(w.Equals(word))

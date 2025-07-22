@@ -18,12 +18,12 @@ public class Main
 	public static void countWord(String word, String lyrics) {
 		int count = 0;
 
-		String[] words = lyrics.replaceAll("[^\\p{IsArabic}\\s]", "").split("\\s+");
+		String[] words = lyrics.replaceAll("[^\\p{L}\\s]", "").split("\\s+");
 
 		for(String string : words)
 			if(string.equals(word))
 				count++;
 		
-		System.out.println("The word " + word + " appears " + count + "times in the lyrics.");
+		System.out.println("The word " + word + " appears " + count + " times in the lyrics.");
 	}
 }
